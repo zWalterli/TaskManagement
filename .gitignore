@@ -31,6 +31,9 @@ Latest commit 552cec7 5 days ago
 /bazel-out
 
 
+bin/
+obj/
+
 # Node
 /node_modules
 npm-debug.log
