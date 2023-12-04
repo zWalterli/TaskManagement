@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using TaskManagement.API.Filter;
 using TaskManagement.API.Provider;
 using TaskManagement.Application.Implementation;
 using TaskManagement.Domain.Interface.Application;
@@ -21,6 +22,7 @@ namespace TaskManagement.API.Controllers
         }
 
         [HttpGet]
+        [UserIdFilter(10)]
         public async Task<IActionResult> GetReport()
         {
             var response = await _reportApplication.GetAmountTasksFinishedPerUserInAMounth();

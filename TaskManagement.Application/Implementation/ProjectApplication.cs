@@ -5,6 +5,7 @@ using TaskManagement.Domain.Interface.Repository;
 using TaskManagement.Domain.ViewModel;
 using TaskManagement.Domain.ViewModel.Result;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace TaskManagement.Application.Implementation
 {
@@ -33,8 +34,8 @@ namespace TaskManagement.Application.Implementation
 
         public async Task<Result> CreateAsync(ProjectCreateViewModel projectViewModel, int userId)
         {
-            projectViewModel.UserId = userId;
             var entity = _mapper.Map<Project>(projectViewModel);
+            entity.UserId = userId;
             if (entity.IsValidToCreate() is false)
                 return Result.Error(entity.Notifications);
 

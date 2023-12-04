@@ -4,8 +4,6 @@ using TaskManagement.API.Filter;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.OpenApi.Models;
 using System.Diagnostics.CodeAnalysis;
-using TaskManagement.Repository.Context;
-using Microsoft.EntityFrameworkCore;
 
 [ExcludeFromCodeCoverage]
 internal class Program
@@ -21,6 +19,7 @@ internal class Program
         builder.Services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "TaskManagement.API", Version = "v1" });
+            c.OperationFilter<AddHeaderOperationFilter>();
         });
 
         builder.Services.AddMvc(options => options.Filters.Add(new DefaultExceptionFilterAttribute()))
@@ -52,9 +51,6 @@ internal class Program
 
         if (app.Environment.IsProduction())
             app.UseHttpsRedirection();
-
-        // app.UseAuthorization();
-        // app.UseAuthentication();
 
         app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
         app.MapControllers();

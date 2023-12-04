@@ -1,6 +1,4 @@
 using System.Diagnostics.CodeAnalysis;
-using Microsoft.AspNetCore.Authorization;
-using TaskManagement.API.Policy;
 using TaskManagement.API.Provider;
 
 namespace TaskManagement.API.Extensions
@@ -24,15 +22,6 @@ namespace TaskManagement.API.Extensions
         private static IServiceCollection AddSingleton(IServiceCollection services)
         {
             services.AddSingleton<IUserIdProvider, UserIdProvider>();
-            services.AddAuthorization(options =>
-                {
-                    options.AddPolicy("UserIdPolicy", policy =>
-                    {
-                        policy.Requirements.Add(new UserIdRequirement(10));
-                    });
-                });
-
-            services.AddSingleton<IAuthorizationHandler, UserIdRequirementHandler>();
             return services;
         }
     }

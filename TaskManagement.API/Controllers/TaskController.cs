@@ -83,7 +83,7 @@ namespace TaskManagement.API.Controllers
         [HttpPut("{taskId}/comment")]
         public async Task<IActionResult> PutComment([FromBody] CommentUpdateViewModel body, [FromRoute] int taskId)
         {
-            var response = await _commentApplication.UpdateAsync(body, taskId);
+            var response = await _commentApplication.UpdateAsync(body, taskId, userId);
             if (response.IsInvalid)
                 return Badrequest(response.Notifications);
 

@@ -42,10 +42,11 @@ namespace TaskManagement.Application.Implementation
             return Result.Ok();
         }
 
-        public async Task<Result> UpdateAsync(CommentUpdateViewModel commentViewModel, int taskId)
+        public async Task<Result> UpdateAsync(CommentUpdateViewModel commentViewModel, int taskId, int userId)
         {
             var entity = _mapper.Map<Comment>(commentViewModel);
             entity.TaskId = taskId;
+            entity.UserId = userId;
             if (entity.IsValidToUpdate() is false)
                 return Result.Error(entity.Notifications);
 
