@@ -31,8 +31,23 @@ clone https://github.com/zWalterli/TaskManagement.git
 docker-compose up
 ```
 
-## Enjoy
+## Run Migrations
+```sh
+cd TaskManagement/TaskManagement.API && dotnet ef database update
+```
 
+## Enjoy
+```sh
+cd TaskManagement/TaskManagement.API && dotnet run
+```
+
+## Observation
+Para utilizar a API, é necssário enviar via HEADER o identificador do usuário.
+No caso, deve adicionar o header:
+
+```sh
+"userId" com o valor "1" (Caso usuário com ID 1)
+```
 ```sh
 http://localhost:5000/swagger/index.html
 ```
@@ -58,13 +73,27 @@ docker build -t taskmanagement-api .
 docker run -p 5000:8080 taskmanagement-api
 ```
 
+## Run Migrations
+```sh
+cd TaskManagement/TaskManagement.API && dotnet ef database update
+```
+
 ## Enjoy
 
+```sh
+cd TaskManagement/TaskManagement.API && dotnet run
+```
+
+## Observation
 Para utilizar a API, é necssário enviar via HEADER o identificador do usuário.
 No caso, deve adicionar o header:
 
 ```sh
 "userId" com o valor "1" (Caso usuário com ID 1)
+```
+
+```sh
+http://localhost:5000/swagger/index.html
 ```
 
 # Rota para a API
