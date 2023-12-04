@@ -32,24 +32,32 @@ docker-compose up
 ```
 
 ## Run Migrations
+
 ```sh
 cd TaskManagement/TaskManagement.API && dotnet ef database update
 ```
 
 ## Enjoy
+
 ```sh
 cd TaskManagement/TaskManagement.API && dotnet run
 ```
 
 ## Observation
+
 Para utilizar a API, é necssário enviar via HEADER o identificador do usuário.
 No caso, deve adicionar o header:
 
 ```sh
 "userId" com o valor "1" (Caso usuário com ID 1)
 ```
+
 ```sh
 http://localhost:5000/swagger/index.html
+```
+
+```sh
+Como não tenho uma API que me retorne a role de cada usuário, defini que SOMENTE o usuário de ID 10 poderá acessar a rota de usuário
 ```
 
 # Run with Docker
@@ -74,6 +82,7 @@ docker run -p 5000:8080 taskmanagement-api
 ```
 
 ## Run Migrations
+
 ```sh
 cd TaskManagement/TaskManagement.API && dotnet ef database update
 ```
@@ -85,6 +94,7 @@ cd TaskManagement/TaskManagement.API && dotnet run
 ```
 
 ## Observation
+
 Para utilizar a API, é necssário enviar via HEADER o identificador do usuário.
 No caso, deve adicionar o header:
 
@@ -94,6 +104,10 @@ No caso, deve adicionar o header:
 
 ```sh
 http://localhost:5000/swagger/index.html
+```
+
+```sh
+Como não tenho uma API que me retorne a role de cada usuário, defini que SOMENTE o usuário de ID 10 poderá acessar a rota de usuário
 ```
 
 # Rota para a API
