@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_2023
+      MYSQL_DATABASE: TaskManagement-db
+      MYSQL_USER: application-user
+      MYSQL_PASSWORD: application-password
+    ports:
+      - "3306:3306"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    depends_on:
+      - mysql
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=mysql;Database=TaskManagement-db;User=root;Password=root_password_2023;"

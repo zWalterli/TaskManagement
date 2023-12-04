@@ -1,0 +1,17 @@
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.deps.json
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Application.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Domain.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Repository.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Domain.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\bin\Debug\net7.0\TaskManagement.Repository.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.AssemblyReference.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.AssemblyInfoInputs.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.AssemblyInfo.cs
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.CoreCompileInputs.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.csproj.CopyComplete
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\refint\TaskManagement.Application.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\TaskManagement.Application.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Application\obj\Debug\net7.0\ref\TaskManagement.Application.dll

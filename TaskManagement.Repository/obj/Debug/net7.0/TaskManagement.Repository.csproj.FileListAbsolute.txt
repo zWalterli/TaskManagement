@@ -1,0 +1,17 @@
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\bin\Debug\net7.0\TaskManagement.Repository.deps.json
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\bin\Debug\net7.0\TaskManagement.Repository.runtimeconfig.json
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\bin\Debug\net7.0\TaskManagement.Repository.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\bin\Debug\net7.0\TaskManagement.Repository.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\bin\Debug\net7.0\TaskManagement.Domain.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\bin\Debug\net7.0\TaskManagement.Domain.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.csproj.AssemblyReference.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.AssemblyInfoInputs.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.AssemblyInfo.cs
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.csproj.CoreCompileInputs.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.csproj.CopyComplete
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\refint\TaskManagement.Repository.dll
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.pdb
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\TaskManagement.Repository.genruntimeconfig.cache
+c:\Users\Walterli\Documents\Projetos\Agenda-netcore\TaskManagement.Repository\obj\Debug\net7.0\ref\TaskManagement.Repository.dll
