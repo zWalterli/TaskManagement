@@ -25,7 +25,7 @@ This project was generated with:
 clone https://github.com/zWalterli/TaskManagement.git
 ```
 
-## Execute the Docker Compsoe
+## Execute the Docker Compose
 
 ```sh
 docker-compose up
@@ -57,7 +57,7 @@ http://localhost:5000/swagger/index.html
 ```
 
 ```sh
-Como não tenho uma API que me retorne a role de cada usuário, defini que SOMENTE o usuário de ID 10 poderá acessar a rota de usuário
+Como não tenho uma API que me retorne a role de cada usuário, defini que SOMENTE o usuário de ID 10 poderá acessar a rota de REPORT
 ```
 
 # Run with Docker
@@ -107,13 +107,13 @@ http://localhost:5000/swagger/index.html
 ```
 
 ```sh
-Como não tenho uma API que me retorne a role de cada usuário, defini que SOMENTE o usuário de ID 10 poderá acessar a rota de usuário
+Como não tenho uma API que me retorne a role de cada usuário, defini que SOMENTE o usuário de ID 10 poderá acessar a rota de REPORT
 ```
 
 # Rota para a API
 
 ```sh
-http://localhost:5000/
+http://localhost:5000/swagger
 ```
 
 ## Refinamento
