@@ -33,6 +33,12 @@ docker-compose up
 
 ## Enjoy
 
+Para utilizar a API, é necssário enviar via HEADER o identificador do usuário.
+No caso, deve adicionar o header:
+
+```sh
+"userId" com o valor "1" (Caso usuário com ID 1)
+```
 ```sh
 http://localhost:5000/swagger/index.html
 ```
@@ -65,6 +71,10 @@ No caso, deve adicionar o header:
 
 ```sh
 "userId" com o valor "1" (Caso usuário com ID 1)
+```
+
+```sh
+http://localhost:5000/swagger/index.html
 ```
 
 # Rota para a API
